@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 *{
     margin: 0;
@@ -6,7 +8,9 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Architects Daughter', cursive;
     background-color: azure;
     color: #212a30;
     /* padding: 2rem; */
@@ -50,7 +54,7 @@ nav ul{
     cursor: pointer;
 }
 .box span{
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: bolder
 }
 .box:nth-child(1){
@@ -87,7 +91,7 @@ nav ul{
     margin: 2rem;
     margin-top: .5rem;
     /* padding: 0 0rem; */
-    font-family: cursive;
+    /* font-family: cursive; */
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -137,8 +141,10 @@ nav ul{
     border: none;
     border-radius: 5rem;
     font-weight: bolder;
-    font-size: 1rem;
-    font-family: cursive;
+    font-size: 1.2rem;
+    /* font-family: cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Architects Daughter', cursive;
     background-color: transparent;
     outline: 2px solid #212a30;
     transition: .3s;
