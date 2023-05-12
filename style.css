@@ -13,7 +13,6 @@ body{
     font-family: 'Architects Daughter', cursive;
     background-color: azure;
     color: #212a30;
-    /* padding: 2rem; */
 }
 /* nav{
     padding: 1.5rem;
@@ -27,6 +26,7 @@ nav ul{
 } */
 .game-container{
     /* border: 2px solid; */
+    position: relative;
     padding: 2rem;
     min-height: 100vh;
     display: flex;
@@ -152,6 +152,12 @@ nav ul{
 #reset:hover{
     background-color: #212a30;
     color: white;
+}
+
+footer{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem auto;
 }
 
 /* responsiveness */
